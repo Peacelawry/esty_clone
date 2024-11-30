@@ -1,12 +1,13 @@
  "use client"
 import React from 'react'
 import { SearchVideos } from '@/utils/fetchData'
-import { useState } from 'react'
-// Import image from "next/image
+import { useState , useContext} from 'react'
 
+import { SearchContext } from '@/contexts/SearchContexts'
 const Searchbar = () => { 
+  const {result , setResult}  =useContext(SearchContext)
   const [ loading, setLoading ]=useState(false)
-  const [result , setResult]=useState([]);
+  // const [result , setResult]=useState([]);
   const [ask , setAsk]=useState("");
 
   const handleSearch = async (e) => {
