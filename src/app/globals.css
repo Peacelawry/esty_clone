@@ -6,10 +6,9 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-.page_container div{
-display: flex;
-gap: 15px;
-margin-left: 28px;
-
+}  
+.con{
+  display: flex;
+  justify-content: space-between;
+  gap: 15%;
 }

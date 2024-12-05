@@ -1,0 +1,46 @@
+.side {background-color:white;
+display:block ;
+}
+.side p {
+    font-family: "roborto"," Arial", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.sidt {background-color:white;
+    display: flex;
+    gap: 30px;
+    }
+.sidt:hover {background-color:rgb(100, 100, 96);
+    display: flex;
+    
+    }
+
+
+.sidth {background-color:white;
+    display: flex;
+    gap: 30px;
+    }
+    .sidth:hover {background-color:rgb(100, 100, 96);
+        display: flex;
+        
+        }
+    
+.sidf {background-color:white;
+    display: flex;
+    gap: 30px;
+    }
+    .sidf:hover {background-color:rgb(100, 100, 96);
+        display: flex;
+        
+        }
+    
+.sido {background-color: white;
+    display: flex;
+    gap: 30px;
+    }
+    .sido:hover {background-color:rgb(100, 100, 96);
+        display: flex;
+        
+        }
+    
+    

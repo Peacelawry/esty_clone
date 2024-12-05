@@ -41,7 +41,7 @@ setLoading(false)
       {
         loading ? <p>loading...</p> : null
       }
-      {
+      {/* {
         result.map((eachItems, index, array)=>(
           <div key={index}>
             <h1>{eachItems.title}</h1>
@@ -52,7 +52,7 @@ setLoading(false)
         
       </div>
       ))
-    }
+    } */}
       </div>
 
     

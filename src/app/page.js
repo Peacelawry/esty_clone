@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="container page_container">
       <Navbar/>
-      <div>
+      <div className="con">
       <SideBar/>
         <Feeds cou={count}/>
        
